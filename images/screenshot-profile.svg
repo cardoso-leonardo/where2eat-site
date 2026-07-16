@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="780" viewBox="0 0 390 780" fill="none">
+  <rect width="390" height="780" fill="#FAFAFA"/>
+  <rect x="0" y="0" width="390" height="52" fill="#FAFAFA"/>
+  <text x="195" y="34" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" font-weight="600" fill="#1E1426">Profile</text>
+  <circle cx="195" cy="140" r="48" fill="#F2697A" opacity="0.28"/>
+  <text x="195" y="148" text-anchor="middle" font-size="28" fill="#1E1426">LC</text>
+  <rect x="110" y="200" width="170" height="14" rx="4" fill="#1E1426" opacity="0.85"/>
+  <rect x="145" y="222" width="100" height="10" rx="3" fill="#7A6B8A" opacity="0.55"/>
+  <rect x="24" y="280" width="342" height="120" rx="18" fill="#FFFFFF" stroke="#E8E4F0"/>
+  <rect x="40" y="298" width="100" height="11" rx="3" fill="#7A6B8A" opacity="0.65"/>
+  <rect x="40" y="322" width="310" height="44" rx="12" fill="#F4F2F6"/>
+  <rect x="52" y="336" width="70" height="16" rx="8" fill="#F2697A" opacity="0.35"/>
+  <rect x="132" y="336" width="70" height="16" rx="8" fill="#1E1426" opacity="0.08"/>
+  <rect x="212" y="336" width="70" height="16" rx="8" fill="#1E1426" opacity="0.08"/>
+  <rect x="24" y="416" width="342" height="56" rx="14" fill="#FFFFFF" stroke="#E8E4F0"/>
+  <rect x="40" y="432" width="140" height="12" rx="3" fill="#1E1426" opacity="0.75"/>
+  <circle cx="340" cy="444" r="10" fill="#A78BCA" opacity="0.45"/>
+</svg>

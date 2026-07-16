@@ -1,0 +1,378 @@
+/* Where2Eat landing — aligns with app palette (see lib/core/constants/app_colors.dart) */
+
+:root {
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --text: #1e1426;
+  --muted: #7a6b8a;
+  --border: #e8e4f0;
+  --primary: #f2697a;
+  --rose-mauve: #d47bbf;
+  --secondary: #a78bca;
+  --accent: #7edce2;
+  --radius: 22px;
+  --radius-shot: 26px;
+  --shadow: 0 12px 40px rgba(30, 20, 38, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #13101a;
+    --surface: #1e1a28;
+    --text: #f0eaf8;
+    --muted: #9e8fba;
+    --border: #3a3050;
+    --shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .btn--ghost {
+    border-color: var(--border);
+    color: var(--text);
+  }
+
+  .card {
+    background: rgba(40, 34, 58, 0.85);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", system-ui, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.hero {
+  padding: clamp(2.5rem, 8vw, 5rem) 1.5rem 3rem;
+  background: linear-gradient(
+    135deg,
+    var(--primary) 0%,
+    var(--rose-mauve) 50%,
+    var(--secondary) 100%
+  );
+  color: #fff;
+}
+
+.hero__inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.92;
+}
+
+.wordmark {
+  margin: 0;
+  font-family: "Nunito", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.5rem, 9vw, 3.75rem);
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.tagline {
+  margin: 0.5rem 0 1rem;
+  font-size: clamp(1.15rem, 3vw, 1.35rem);
+  font-weight: 600;
+  opacity: 0.96;
+}
+
+.lede {
+  margin: 0 0 1.75rem;
+  max-width: 38rem;
+  opacity: 0.94;
+  font-size: 1.02rem;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.15rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn--ghost {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: #fff;
+  backdrop-filter: blur(8px);
+}
+
+.btn--ghost:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.btn[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.85;
+}
+
+.hint {
+  margin: 1rem 0 0;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.section {
+  padding: 3rem 1.5rem;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.section__title {
+  font-family: "Nunito", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.65rem;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.5rem;
+}
+
+.features {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.35rem 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.card h3 {
+  margin: 0 0 0.5rem;
+  font-family: "Nunito", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  background: linear-gradient(
+    90deg,
+    var(--primary),
+    var(--rose-mauve),
+    var(--secondary)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.section--band {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.band-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 220, 226, 0.25),
+    rgba(167, 139, 202, 0.2)
+  );
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.band-text {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.section--shots {
+  padding-top: 2.25rem;
+}
+
+.screenshots {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-items: start;
+}
+
+.shot {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.shot__frame {
+  border-radius: var(--radius-shot);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: var(--surface);
+  line-height: 0;
+}
+
+.shot__frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.shot figcaption {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-align: center;
+}
+
+.footer {
+  padding: 2.5rem 1.5rem 3rem;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.footer__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem 1rem;
+}
+
+.footer__credit {
+  margin: 0;
+}
+
+.footer__linkedin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem;
+  border-radius: 12px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.footer__linkedin:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(242, 105, 122, 0.25);
+}
+
+.footer__linkedin:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.footer__linkedin-icon {
+  display: block;
+}
+
+.legal-header {
+  padding: clamp(2rem, 6vw, 3.25rem) 1.5rem 2rem;
+  background: linear-gradient(
+    135deg,
+    var(--primary) 0%,
+    var(--rose-mauve) 50%,
+    var(--secondary) 100%
+  );
+  color: #fff;
+}
+
+.legal-header__inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.legal-header__brand {
+  display: inline-block;
+  margin: 0 0 0.75rem;
+  font-family: "Nunito", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.92;
+}
+
+.legal-header__brand:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.legal-header__title {
+  margin: 0;
+  font-family: "Nunito", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.75rem, 5vw, 2.25rem);
+  letter-spacing: -0.02em;
+}
+
+.legal-header__updated {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.88;
+}
+
+.legal {
+  max-width: 720px;
+  padding-top: 2.5rem;
+}
+
+.legal__card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.legal__card h2 {
+  margin: 0 0 0.6rem;
+  font-family: "Nunito", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+}
+
+.legal__card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.legal__card a {
+  color: var(--primary);
+}
