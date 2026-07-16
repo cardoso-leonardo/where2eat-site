@@ -1,21 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="390" height="780" viewBox="0 0 390 780" fill="none">
-  <rect width="390" height="780" fill="#FAFAFA"/>
-  <rect x="0" y="0" width="390" height="52" fill="#FAFAFA"/>
-  <text x="24" y="34" font-family="system-ui,sans-serif" font-size="13" fill="#7A6B8A">9:41</text>
-  <text x="195" y="34" font-family="Nunito,system-ui,sans-serif" font-weight="800" font-size="18" fill="url(#g)">Where2Eat</text>
-  <rect x="20" y="68" width="350" height="72" rx="14" fill="#F4F2F6" stroke="#E8E4F0"/>
-  <circle cx="52" cy="104" r="22" fill="#F2697A" opacity="0.35"/>
-  <rect x="88" y="88" width="120" height="14" rx="4" fill="#1E1426" opacity="0.85"/>
-  <rect x="88" y="108" width="90" height="10" rx="3" fill="#7A6B8A" opacity="0.6"/>
-  <rect x="20" y="156" width="160" height="18" rx="4" fill="#1E1426" opacity="0.75"/>
-  <rect x="280" y="156" width="40" height="40" rx="20" fill="#F2697A" opacity="0.2"/>
-  <rect x="20" y="190" width="170" height="140" rx="16" fill="#FFFFFF" stroke="#E8E4F0"/>
-  <rect x="36" y="206" width="130" height="12" rx="4" fill="#A78BCA" opacity="0.45"/>
-  <rect x="36" y="228" width="90" height="10" rx="3" fill="#7A6B8A" opacity="0.5"/>
-  <rect x="36" y="288" width="50" height="24" rx="8" fill="#7EDCE2" opacity="0.35"/>
-  <rect x="200" y="190" width="170" height="140" rx="16" fill="#FFFFFF" stroke="#E8E4F0"/>
-  <rect x="216" y="206" width="130" height="12" rx="4" fill="#D47BBF" opacity="0.4"/>
-  <rect x="216" y="228" width="100" height="10" rx="3" fill="#7A6B8A" opacity="0.5"/>
+  <rect width="390" height="780" fill="#0D0B13"/>
+  <text x="24" y="42" font-family="Nunito,system-ui,sans-serif" font-weight="800" font-size="22" fill="url(#g)">Where2eat</text>
+  <rect x="230" y="16" width="34" height="34" rx="10" fill="#1C1826" stroke="#322B44"/>
+  <rect x="270" y="16" width="34" height="34" rx="10" fill="#1C1826" stroke="#322B44"/>
+  <rect x="310" y="16" width="34" height="34" rx="10" fill="#1C1826" stroke="#322B44"/>
+  <rect x="350" y="16" width="34" height="34" rx="10" fill="#1C1826" stroke="#322B44"/>
+
+  <rect x="20" y="78" width="350" height="150" rx="22" fill="#1C1826" stroke="#322B44"/>
+  <rect x="40" y="98" width="60" height="60" rx="16" fill="#F2697A" opacity="0.28"/>
+  <rect x="114" y="106" width="140" height="14" rx="4" fill="#F0EAF8" opacity="0.9"/>
+  <rect x="114" y="128" width="90" height="10" rx="3" fill="#9E8FBA" opacity="0.65"/>
+
+  <circle cx="96" cy="192" r="14" fill="#F2697A"/>
+  <rect x="82" y="212" width="28" height="9" rx="3" fill="#F0EAF8" opacity="0.85"/>
+  <rect x="76" y="226" width="40" height="7" rx="3" fill="#9E8FBA" opacity="0.55"/>
+
+  <circle cx="195" cy="192" r="14" fill="#A78BCA"/>
+  <rect x="180" y="212" width="30" height="9" rx="3" fill="#F0EAF8" opacity="0.85"/>
+  <rect x="175" y="226" width="40" height="7" rx="3" fill="#9E8FBA" opacity="0.55"/>
+
+  <circle cx="294" cy="192" r="14" fill="#D47BBF"/>
+  <rect x="279" y="212" width="30" height="9" rx="3" fill="#F0EAF8" opacity="0.85"/>
+  <rect x="272" y="226" width="44" height="7" rx="3" fill="#9E8FBA" opacity="0.55"/>
+
+  <rect x="20" y="256" width="110" height="17" rx="4" fill="#F0EAF8" opacity="0.9"/>
+  <circle cx="316" cy="264" r="16" fill="#1C1826" stroke="#322B44"/>
+  <circle cx="354" cy="264" r="16" fill="#1C1826" stroke="#322B44"/>
+
+  <rect x="20" y="296" width="350" height="130" rx="20" fill="#1C1826" stroke="#322B44"/>
+  <rect x="36" y="312" width="56" height="56" rx="16" fill="#A78BCA" opacity="0.3"/>
+  <rect x="104" y="316" width="150" height="14" rx="4" fill="#F0EAF8" opacity="0.9"/>
+  <rect x="104" y="336" width="108" height="16" rx="8" fill="#A78BCA" opacity="0.3"/>
+  <circle cx="64" cy="396" r="20" fill="none" stroke="#322B44" stroke-width="4"/>
+  <path d="M64 376 A20 20 0 0 1 84 402" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+  <rect x="104" y="390" width="150" height="10" rx="3" fill="#9E8FBA" opacity="0.6"/>
+  <rect x="104" y="406" width="80" height="9" rx="3" fill="#9E8FBA" opacity="0.5"/>
+
+  <rect x="20" y="442" width="350" height="134" rx="20" fill="#1C1826" stroke="#322B44"/>
+  <rect x="36" y="458" width="56" height="56" rx="16" fill="#D47BBF" opacity="0.3"/>
+  <rect x="104" y="462" width="130" height="14" rx="4" fill="#F0EAF8" opacity="0.9"/>
+  <rect x="104" y="482" width="108" height="16" rx="8" fill="#D47BBF" opacity="0.3"/>
+  <circle cx="64" cy="540" r="20" fill="none" stroke="#322B44" stroke-width="4"/>
+  <path d="M64 520 A20 20 0 1 1 46 532" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+  <rect x="104" y="534" width="130" height="10" rx="3" fill="#9E8FBA" opacity="0.6"/>
+
   <defs>
     <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F2697A"/>
